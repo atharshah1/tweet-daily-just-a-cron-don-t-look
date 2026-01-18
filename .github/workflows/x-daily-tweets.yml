@@ -1,0 +1,45 @@
+name: X Daily Tweets (India & US)
+
+on:
+  # schedule:
+    # # India – 7:00 AM IST
+    # - cron: "30 1 * * *"
+    # # US – 10:30 AM EST
+    # - cron: "30 14 * * *"
+  workflow_dispatch:
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Detect region
+        run: |
+          HOUR=$(date -u +"%H")
+          if [ "$HOUR" -lt 8 ]; then
+            echo "REGION=india" >> $GITHUB_ENV
+          else
+            echo "REGION=us" >> $GITHUB_ENV
+          fi
+
+      - name: Post tweet
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: |
+          node postTweet.js
+
+      - name: Commit tweet state
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add tweets.json
+          git commit -m "mark tweet as posted ($REGION)" || echo "Nothing to commit"
+          git push
