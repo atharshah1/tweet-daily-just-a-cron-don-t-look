@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "last_updated": "2026-01-18",
+    "description": "30-day region-aware tweets for India and US with CTA rotation and reply hooks"
+  },
+  "tweets": [
+    {
+      "id": 1,
+      "text": "Most developers stay broke not because they lack skill, but because nobody knows what they do.\n\nPost what you fix. Clients watch quietly.\n\nWhat was the last problem you solved?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#Freelancing", "#DevOps", "#BuildInPublic"],
+        "us": ["#DevOps", "#FreelanceLife", "#TechTwitter"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 2,
+      "text": "You don’t need 10 clients.\nYou need 1 long-term client.\n\nMaintenance work pays more than one-time projects.\n\nDMs are open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#RemoteWork", "#DevOpsEngineer", "#Freelancing"],
+        "us": ["#RemoteJobs", "#Consulting", "#DevOpsEngineer"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 3,
+      "text": "Clients don’t care about tools.\nThey care about uptime, speed, and cost.\n\nWhat do your clients care about most?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#StartupLife", "#DevOps", "#Consulting"],
+        "us": ["#StartupTech", "#DevOps", "#TechBusiness"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 4,
+      "text": "If you can fix outages, reduce cloud bills, or automate boring tasks — you already have a sellable skill.\n\nDM if this is you.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#CloudComputing", "#DevOpsLife", "#Freelancer"],
+        "us": ["#CloudJobs", "#DevOpsLife", "#Consulting"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 5,
+      "text": "Cold DMs rarely work.\n\nConsistent posting does.\n\nInbound clients trust familiarity.\n\nAgree or disagree?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#PersonalBrand", "#FreelancingTips", "#TechTwitter"],
+        "us": ["#PersonalBrand", "#FreelanceTips", "#TechTwitter"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 6,
+      "text": "Docker, Kubernetes, CI/CD aren’t just skills.\n\nThey are recurring income opportunities.\n\nEmail: devops.consult@yourdomain.com",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#Docker", "#Kubernetes", "#DevOps"],
+        "us": ["#CloudNative", "#DevOpsEngineer", "#TechCareers"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 7,
+      "text": "If your GitHub is empty, start small.\n\nScripts, configs, fixes > perfect projects.\n\nWhat’s on your GitHub?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#GitHub", "#BuildInPublic", "#DeveloperLife"],
+        "us": ["#GitHub", "#BuildInPublic", "#Coding"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 8,
+      "text": "Clients pay for reliability.\n\nBe the person who responds when things break.\n\nDMs open for support work.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#DevOpsEngineer", "#FreelanceLife", "#RemoteWork"],
+        "us": ["#OnCall", "#DevOps", "#Consulting"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 9,
+      "text": "Most freelancers underprice.\n\nCharge for responsibility, not hours.\n\nHow do you price your work?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#Freelancing", "#Consulting", "#CareerGrowth"],
+        "us": ["#FreelanceTips", "#ConsultingLife", "#Business"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 10,
+      "text": "Monitoring setups aren’t glamorous.\n\nThey are money printers.\n\nEmail for setup & audits.",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#Monitoring", "#DevOpsLife", "#CloudJobs"],
+        "us": ["#Observability", "#DevOps", "#Cloud"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 11,
+      "text": "You don’t need virality.\n\nYou need the right people seeing your work.\n\nWho are you trying to reach?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#FreelancingTips", "#TechTwitter", "#BuildInPublic"],
+        "us": ["#AudienceBuilding", "#TechTwitter", "#Creators"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 12,
+      "text": "Every production issue you fix is content.\n\nWrite about it.\n\nDM if you want prod stability help.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#DevOps", "#RealWorldTech", "#Freelancing"],
+        "us": ["#Production", "#DevOpsEngineer", "#Consulting"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 13,
+      "text": "Clients love boring engineers.\n\nBoring = stable systems.\n\nWould you agree?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#DevOpsEngineer", "#StartupLife", "#Consulting"],
+        "us": ["#Reliability", "#DevOps", "#TechLeadership"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+    {
+      "id": 14,
+      "text": "Your X profile is not for motivation.\n\nIt’s your landing page.\n\nDMs open for consulting.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#PersonalBrand", "#Freelancing", "#TechCareers"],
+        "us": ["#PersonalBrand", "#Consulting", "#TechTwitter"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 15,
+      "text": "Recurring revenue beats big one-time payments.\n\nThink retainers.\n\nEmail for predictable support.",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#FreelanceLife", "#RemoteWork", "#Business"],
+        "us": ["#Consulting", "#SaaS", "#BusinessGrowth"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 16,
+      "text": "If you’ve handled prod incidents, you’re ahead of most applicants.\n\nWhat was your toughest incident?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#DevOps", "#CareerGrowth", "#TechJobs"],
+        "us": ["#IncidentResponse", "#DevOpsLife", "#Engineering"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 17,
+      "text": "Clients trust engineers who explain clearly.\n\nCommunication is a technical skill.\n\nDMs open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#Consulting", "#DevOpsEngineer", "#Freelancing"],
+        "us": ["#ClientWork", "#ConsultingLife", "#DevOps"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 18,
+      "text": "Your job search becomes easier when clients come to you.\n\nAre you posting consistently?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#PersonalBrand", "#BuildInPublic", "#Freelancing"],
+        "us": ["#CareerStrategy", "#TechTwitter", "#Creators"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 19,
+      "text": "Cloud cost optimization is an underrated goldmine.\n\nEmail for audits & savings.",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#CloudComputing", "#DevOpsLife", "#Freelancer"],
+        "us": ["#CloudCosts", "#FinOps", "#DevOps"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 20,
+      "text": "One good case study beats ten certificates.\n\nDo you have one?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#DevOps", "#CareerAdvice", "#TechTwitter"],
+        "us": ["#CaseStudy", "#TechCareers", "#Engineering"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 21,
+      "text": "Your biggest advantage?\n\nMost engineers never show their work.\n\nDMs open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#BuildInPublic", "#Freelancing", "#DeveloperLife"],
+        "us": ["#IndieDev", "#TechTwitter", "#Creators"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 22,
+      "text": "Clients pay more for peace of mind than raw skill.\n\nWould you agree?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#Consulting", "#DevOpsEngineer", "#Business"],
+        "us": ["#ClientTrust", "#Consulting", "#BusinessTech"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 23,
+      "text": "You don’t need a big audience.\n\nYou need consistency.\n\nEmail for long-term support.",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#TechTwitter", "#PersonalBrand", "#FreelancingTips"],
+        "us": ["#Consistency", "#Creators", "#FreelanceLife"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 24,
+      "text": "Every alert you silence responsibly is experience money can’t buy.\n\nWhat alert annoys you most?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#DevOpsLife", "#Monitoring", "#Cloud"],
+        "us": ["#OnCallLife", "#SRE", "#DevOps"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 25,
+      "text": "Good engineers reduce risk.\n\nThat’s what clients pay for.\n\nDMs open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#DevOps", "#StartupLife", "#Consulting"],
+        "us": ["#RiskManagement", "#DevOpsEngineer", "#Business"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 26,
+      "text": "Freelancing is easier when you stop chasing jobs and start sharing insights.\n\nAgree?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#FreelanceLife", "#BuildInPublic", "#TechCareers"],
+        "us": ["#CreatorEconomy", "#Freelancing", "#TechTwitter"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 27,
+      "text": "Your past mistakes are future content.\n\nEmail for consulting & audits.",
+      "cta": "email",
+      "hashtags": {
+        "india": ["#DevOpsEngineer", "#LearningInPublic", "#Freelancing"],
+        "us": ["#EngineeringLessons", "#DevOpsLife", "#Consulting"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 28,
+      "text": "Systems that don’t fail loudly are worth a premium.\n\nDMs open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#DevOps", "#CloudComputing", "#Consulting"],
+        "us": ["#ReliabilityEngineering", "#SRE", "#DevOps"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 29,
+      "text": "Engineers who document well get hired faster.\n\nDo you document?",
+      "cta": "reply",
+      "hashtags": {
+        "india": ["#GitHub", "#DevOpsLife", "#CareerGrowth"],
+        "us": ["#Documentation", "#Engineering", "#TechCareers"]
+      },
+      "posted": { "india": false, "us": false }
+    },
+
+    {
+      "id": 30,
+      "text": "Consistency compounds.\n\nPost daily. Improve quietly. Get paid.\n\nDMs open.",
+      "cta": "dm",
+      "hashtags": {
+        "india": ["#Freelancing", "#BuildInPublic", "#TechTwitter"],
+        "us": ["#CreatorGrowth", "#TechTwitter", "#FreelanceLife"]
+      },
+      "posted": { "india": false, "us": false }
+    }
+  ]
+}
